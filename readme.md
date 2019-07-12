@@ -1,13 +1,20 @@
-# watch
+# node-watch-lib
 
+## Disclaimer
+
+I did it for learning purpose, and you should consider coding this yourself too.
 
 ## Usage
 
-To dev comfy, use 2 shells :
-- One for watching typescript : `yarn tsc --watch`
-- One for watching building files, and keeping the process up : `yarn dev`
+In your project root, use the bin command like this :
+
+```sh
+$ yarn watch yourscript.js
+```
+
+This will lauch your script, and on change of a file matching `/\.js$/`, this will reload `yourscript.js`.
 
 ## Requirements
 
-* Node.js > v0.5.10
+* Node.js > v0.7.0
 * Yarn or Npm, check script cat in package.json for your convenience.

@@ -9,7 +9,7 @@ export default function watch(): void {
 	child = child_process.spawn(
 		process.argv0,
 		process.argv.filter(v => {
-			if (v.search(/(^\S*@iuzziel[\\\/]+node-watch-lib[\\\/]+lib[\\\/]+index[\.js]*$|^\S*watch[\.js]*$)/) >= 0 || process.argv0 === v)
+			if (v.search(/(^\S*@iuzziel[\\\/]+node-watch-lib[\\\/]+lib[\\\/]+index[\.js]*$|^\S*watch(\.js|\.cmd)?$)/) >= 0 || process.argv0 === v)
 				return false;
 			else
 				return true;
