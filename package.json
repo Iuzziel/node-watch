@@ -1,7 +1,7 @@
 {
   "name": "@iuzziel/node-watch-lib",
   "description": "An alternative to node watch",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "bin": {
     "watch": "lib/index.js"
   },
