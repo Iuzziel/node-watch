@@ -1,0 +1,26 @@
+{
+  "name": "@iuzziel/node-watch-lib",
+  "description": "An alternative to node watch",
+  "version": "0.1.0",
+  "bin": {
+    "watch": "lib/index.js"
+  },
+  "private": false,
+  "license": "AGPL-3.0",
+  "author": {
+    "name": "Iuzziel",
+    "email": "iuzziel@hotmail.fr",
+    "url": "https://github.com/Iuzziel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Iuzziel/node-watch-lib"
+  },
+  "engines": {
+    "node": ">0.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "typescript": "^3.5.3"
+  }
+}
